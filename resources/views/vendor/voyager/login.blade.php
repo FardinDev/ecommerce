@@ -59,27 +59,27 @@
 
             <div class="login-container">
 
-                <p>{{ __('voyager.login.signin_below') }}</p>
+                <p>{{ __('signin below') }}</p>
 
                 <form action="{{ route('voyager.login') }}" method="POST">
                     {{ csrf_field() }}
                     <div class="form-group form-group-default" id="emailGroup">
-                        <label>{{ __('voyager.generic.email') }}</label>
+                        <label>{{ __('email') }}</label>
                         <div class="controls">
-                            <input type="text" name="email" id="email" value="{{ old('email') }}" placeholder="{{ __('voyager.generic.email') }}" class="form-control" required>
+                            <input type="text" name="email" id="email" value="{{ old('email') }}" placeholder="{{ __('email') }}" class="form-control" required>
                          </div>
                     </div>
 
                     <div class="form-group form-group-default" id="passwordGroup">
-                        <label>{{ __('voyager.generic.password') }}</label>
+                        <label>{{ __('password') }}</label>
                         <div class="controls">
-                            <input type="password" name="password" placeholder="{{ __('voyager.generic.password') }}" class="form-control" required>
+                            <input type="password" name="password" placeholder="{{ __('password') }}" class="form-control" required>
                         </div>
                     </div>
 
                     <button type="submit" class="btn btn-block login-button">
                         <span class="signingin hidden"><span class="voyager-refresh"></span> {{ __('voyager.login.loggingin') }}...</span>
-                        <span class="signin">{{ __('voyager.generic.login') }}</span>
+                        <span class="signin">{{ __('login') }}</span>
                     </button>
 
               </form>
@@ -88,13 +88,13 @@
 
 
               <div style="margin-top: 10px;">
-                <div><strong>Email: </strong>adminweb@adminweb.com</div>
-                <div><strong>Password: </strong>password</div>
+                <div><strong>Email: </strong>koushikfardin@gmail.com</div>
+                <div><strong>Password: </strong>fardin</div>
               </div>
-
+ {{--
               <div style="margin-top: 10px;"><strong>Note: </strong>A lot of the functionality for this demo has been disabled: For example, deleting data and browsing/editing users and roles. If you would like full access, install it locally with the instructions found on the GitHub Repo.</div>
 
-              <div style="margin-top: 10px;">A daily CRON job is scheduled at midnight to reset all the dummy data to a default state.</div>
+              <div style="margin-top: 10px;">A daily CRON job is scheduled at midnight to reset all the dummy data to a default state.</div> --}}
 
               @if(!$errors->isEmpty())
               <div class="alert alert-red">

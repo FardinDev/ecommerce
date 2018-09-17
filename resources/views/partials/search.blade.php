@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
     <script src="{{ asset('js/algolia.js') }}"></script>
 
-{{-- <form action="{{route('search')}}" method="GET" class="search-form">
+{{--  <form action="{{route('search')}}" method="GET" class="search-form">
     <i class="fa fa-search search-icon"></i>
     <input type="text" name="query" id="query" value="{{ request()->input('query') }}" class="search-box" placeholder="Search for product" required='min:3'>
-</form> --}}
+</form>  --}}
