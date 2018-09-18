@@ -7,7 +7,7 @@ ___
 Download or Clone to your PC then follow the steps below
 
 ```sh
-Create a new database of name "laravel_ecommerce" on your PHPmyAdmin then import the file => "laravel_ecommerce.sql"
+Create a new database of name "laravel_ecommerce" on your PHPmyAdmin then import the file "laravel_ecommerce.sql"
 ```
 
 After importing the sql file run these commands on the `"ecommerce-master"` folder:
